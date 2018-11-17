@@ -25,7 +25,7 @@ SECRET_KEY = 'k!1oc&ld=fr0(=j_77(+omi=s+_pk-%dk0$vs8c9nl85-n-zgy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u'*']
 
 
 # Application definition
@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'djrest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django-rest-db',
+        'NAME': 'django_rest_db',
         'USER': 'root',
-        'PASSWORD': 'root',
-        # 'HOTS': '',
-        # 'POST': ''
+        'PASSWORD': '1qaz2wsx',
+        'HOST': '/var/lib/mysql/mysql.sock',
+        'PORT': '3306',
     }
 }
 
