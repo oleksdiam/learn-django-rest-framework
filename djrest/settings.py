@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'django_rest_db',
         'USER': 'root',
         'PASSWORD': '1qaz2wsx',
-        'HOST': '/var/lib/mysql/mysql.sock',
+        'HOST': 'mysqltest.c694gwj0fyyt.us-west-2.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
